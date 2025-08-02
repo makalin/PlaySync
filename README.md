@@ -6,9 +6,20 @@
 
 ## Features
 
+### Core Functions
 - **Convert Playlists**: Transfer a playlist from one platform (e.g., Spotify) to the others (e.g., Apple Music and YouTube Music).
 - **Merge Playlists**: Combine playlists from multiple platforms into one, deduplicating tracks based on name and artist.
 - **Compare Playlists**: Analyze playlists to identify tracks common across all platforms and those unique to each.
+
+### Advanced Features
+- **Playlist Analysis**: Get detailed statistics including audio features, top artists, genres, and duration analysis
+- **Export/Import**: Export playlists in JSON, CSV, or TXT formats and import from JSON files
+- **Playlist Management**: Delete, rename, duplicate, and manage playlists across platforms
+- **Search & Recommendations**: Search tracks, create playlists from search results, and get personalized recommendations
+- **Batch Operations**: Convert multiple playlists simultaneously and sync playlists across platforms
+- **Smart Playlists**: Create playlists based on complex criteria and filters
+- **Backup System**: Complete backup and restore functionality for all playlists
+- **Audio Features Analysis**: Compare tempo, energy, danceability, and other audio characteristics
 
 ## Prerequisites
 
@@ -93,12 +104,14 @@ Enter your choice (1-4):
 
 ```
 PlaySync/
-├── main.py              # Terminal app entry point
-├── spotify_client.py    # Spotify API client
-├── apple_client.py      # Apple Music API client
-├── youtube_client.py    # YouTube Music API client
+├── main.py              # Terminal app entry point with advanced menu system
+├── spotify_client.py    # Enhanced Spotify API client with analysis tools
+├── apple_client.py      # Enhanced Apple Music API client with analysis tools
+├── youtube_client.py    # Enhanced YouTube Music API client with analysis tools
+├── utils.py             # Advanced utilities for batch operations and analysis
 ├── requirements.txt     # Dependencies
 ├── README.md            # This file
+├── FUNCTIONS.md         # Comprehensive function documentation
 └── .github/workflows/   # Optional GitHub Actions
 ```
 
@@ -124,7 +137,10 @@ Please include tests and update documentation where applicable.
 - Add ISRC-based song matching for precise conversions.
 - Implement a web or GUI interface (e.g., Flask or Tkinter).
 - Support additional platforms (e.g., Deezer, Tidal).
-- Enhance error handling and logging.
+- Machine learning integration for AI-powered playlist generation.
+- Real-time synchronization across platforms.
+- Advanced audio feature analysis and visualization.
+- Social features for playlist sharing and collaboration.
 
 ## License
 
