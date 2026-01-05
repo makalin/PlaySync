@@ -56,7 +56,7 @@
    - **Spotify**: Get credentials from the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/). 
    - Also set `http://127.0.0.1:8888/callback` as your Applications Redirect URL
    - **Apple Music**: Obtain tokens via the [Apple Developer Program](https://developer.apple.com/programs/). See [Apple Music API docs](https://developer.apple.com/documentation/applemusicapi).
-   - **YouTube Music**: Generate `youtube_auth.json` by running `ytmusicapi setup` (see [ytmusicapi setup guide](https://ytmusicapi.readthedocs.io/en/stable/setup.html)).
+   - **YouTube Music**: Generate `youtube_auth.json` by running `ytmusicapi setup` (see [ytmusicapi setup guide](https://ytmusicapi.readthedocs.io/en/stable/setup/index.html)).
 
 4. **Run the App**
    ```bash
